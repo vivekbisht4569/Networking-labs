@@ -1,4 +1,4 @@
-# Networking Labs (CCNA Level)
+# Networking Labs 
 
 This repository contains my practical networking lab work performed using Cisco Packet Tracer.
 
