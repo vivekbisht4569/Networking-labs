@@ -14,7 +14,7 @@ Two LAN networks connected through two routers.
 - LAN 2 → 192.168.2.0/24
 - Router-to-Router → 192.168.3.0/24
 
-![Topology](static-routing-topology)
+
 
 
 ---
