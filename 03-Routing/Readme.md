@@ -57,7 +57,6 @@ The focus of these labs is to understand how routers forward packets between dif
 Routing allows communication between different networks. Without routing, devices can only communicate within the same subnet.
 
 Understanding routing is fundamental for:
-- CCNA preparation
 - Network administration
 - Enterprise network design
 - Troubleshooting real-world networks
