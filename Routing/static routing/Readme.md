@@ -21,3 +21,4 @@ Static routing is a method where routes are manually configured on a router to r
 . Backup routes (floating static routes)
 . Lab environments
 . Secure networks requiring strict route control
+
