@@ -66,4 +66,4 @@ PC1 should be able to ping PC2
 PC1 should be able to ping PC3
 PC2 should be able to ping PC3
 
-Successful pings confirm that Router-on-a-Stick is working correctly.
+Successful pings confirm that Router-on-a-Stick is working correctly. 
