@@ -1,6 +1,6 @@
 # 🔐 Inter-VLAN Routing Lab (Legacy Method)
 
----
+
 
 ## 📌 Overview
 
@@ -8,7 +8,7 @@ This project demonstrates **Inter-VLAN Routing using the Legacy Method (multiple
 
 The goal was to enable communication between different VLANs by connecting each VLAN to a **dedicated router interface**.
 
----
+
 
 ## 🏢 Scenario
 
@@ -20,7 +20,7 @@ A company network is divided into multiple departments:
 
 Each department is placed in a separate VLAN, and a router is used to allow communication between them.
 
----
+
 
 ## 🧩 Topology Description
 
@@ -29,7 +29,7 @@ Each department is placed in a separate VLAN, and a router is used to allow comm
 * Multiple PCs/Laptops
 * Separate physical connections between router and switch for each VLAN
 
----
+
 
 ## 🌐 IP Addressing
 
@@ -39,7 +39,7 @@ Each department is placed in a separate VLAN, and a router is used to allow comm
 | 20   | Accounts    | 192.168.20.0/24 | 192.168.20.1 |
 | 30   | Support     | 192.168.30.0/24 | 192.168.30.1 |
 
----
+
 
 ## ⚙️ Configuration
 
@@ -56,7 +56,7 @@ vlan 30
 name Support
 ```
 
----
+
 
 ### 2️⃣ Port Assignment (Switch)
 
@@ -74,13 +74,13 @@ switchport mode access
 switchport access vlan 30
 ```
 
----
+
 
 ### 3️⃣ Router Connections (Important Concept)
 
 Each VLAN is connected to the router using a **separate physical interface**.
 
----
+
 
 ### 4️⃣ Router Configuration
 
@@ -98,7 +98,7 @@ ip address 192.168.30.1 255.255.255.0
 no shutdown
 ```
 
----
+
 
 ### 5️⃣ PC Configuration
 
@@ -108,7 +108,6 @@ Each device is configured with:
 * Subnet Mask
 * Default Gateway (router interface of its VLAN)
 
----
 
 ## 🧪 Testing & Results
 
@@ -119,7 +118,7 @@ Each device is configured with:
   * Example: VLAN 10 → VLAN 20 ✔
   * VLAN 20 → VLAN 30 ✔
 
----
+
 
 ## 🧠 Key Learnings
 
@@ -128,7 +127,6 @@ Each device is configured with:
 * Legacy method uses **one interface per VLAN**
 * Default gateway is critical for inter-network communication
 
----
 
 ## ⚠️ Limitations of Legacy Method
 
@@ -136,37 +134,15 @@ Each device is configured with:
 * Not scalable for large networks
 * Increases cabling complexity
 
----
-
-## 🚀 Future Improvements
-
-* Implement **Router-on-a-Stick (ROAS)**
-* Reduce physical connections using trunking
-* Add DHCP and routing protocols
-
----
 
 ## 🛠️ Tools Used
 
 * Cisco Packet Tracer
 * Cisco CLI
 
----
 
-## 📸 Screenshots
-
-*Add topology and ping results here*
-
----
-
-## 🔗 GitHub Repository
-
-(Add your repo link here)
-
----
 
 ## 📌 Conclusion
 
 This lab demonstrates how inter-VLAN communication can be achieved using a router with multiple interfaces. It also highlights the limitations of this method and why modern networks prefer Router-on-a-Stick.
 
----
