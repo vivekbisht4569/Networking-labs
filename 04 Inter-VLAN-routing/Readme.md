@@ -1,4 +1,4 @@
-# Inter-VLAN Routing (Must Know)
+# Inter-VLAN Routing
 
 ## Labs to Practice
 
