@@ -257,20 +257,29 @@ show running-config | include spanning-tree
 
 ##  Attacker Switch Becoming Root Bridge
 
-_Add screenshot here_
+![alt text](Images/01_Topology.png)
 
 ---
 
 ##  Root Guard Blocking Rogue Switch
 
-_Add screenshot here_
+![alt text](Images/06_enable_root_gueard.png)
 
 ---
 
-##  Root-Inconsistent State Verification
+##  Attcker-Become Root Bridge
 
-_Add screenshot here_
+![_Add screenshot here_](Images/04_check_attacker_become_root.png)
 
+
+## Before Applying Root GUard Attacker Become Root Bridge 
+
+<video controls src="video/01_Before_Root_Guard.mp4" title="Title"></video>
+
+
+## After Applying Root Guard Attacker is no longer The Root Bridge 
+
+<video controls src="video/02_After_Root_Guard.mp4" title="Title"></video>
 ---
 
 #  Technologies Used
