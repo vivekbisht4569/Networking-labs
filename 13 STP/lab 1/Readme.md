@@ -272,15 +272,7 @@ show running-config | include spanning-tree
 ![_Add screenshot here_](Images/04_check_attacker_become_root.png)
 
 
-## Before Applying Root GUard Attacker Become Root Bridge 
 
-<video controls src="video/01_Before_Root_Guard.mp4" title="Title"></video>
-
-
-## After Applying Root Guard Attacker is no longer The Root Bridge 
-
-<video controls src="video/02_After_Root_Guard.mp4" title="Title"></video>
----
 
 #  Technologies Used
 
