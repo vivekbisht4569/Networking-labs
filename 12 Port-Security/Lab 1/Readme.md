@@ -19,6 +19,8 @@ The lab explores static and dynamically learned MAC address security, violation 
 
 ##  Lab Topology
 
+![Port Security Lab Topology](topology.png) 
+ 
 **Devices used:**
 - 1 × Cisco 2960-24PS switch
 - 6 × PCs
